@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: glance-pv
- spec:
+spec:
   storageClassName: general
   Capacity:
     storage: 2Gi
