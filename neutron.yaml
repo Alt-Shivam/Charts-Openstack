@@ -15,7 +15,7 @@ dependencies:
           pod:
           - requireSameNode: true
             labels:
-              applications: neutron
+              application: neutron
               component: neutron-lb-agent
          metadata:
           pod:
